@@ -15,7 +15,7 @@
       overflow-x: hidden;
 
       /* SP基準の背景（元の@media max-width:768の値） */
-      background: url(../bg.jpg) center 0 / cover;
+      background: url(../img/bg.jpg) center 0 / cover;
       width: 100%;
     }
 
@@ -467,7 +467,7 @@
     ========================= */
     @media screen and (min-width: 769px) {
       body{
-        background: url(../bg.jpg) no-repeat center -800px / cover;
+        background: url(../img/bg.jpg) no-repeat center -800px / cover;
       }
 
       .container {
@@ -510,4 +510,5 @@
       .flake, .bulb { animation: none !important; }
       nav a, .btn { transition: none !important; }
       .bulb::after{ animation: none !important; }
+
     }
